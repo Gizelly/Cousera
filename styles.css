@@ -1,0 +1,68 @@
+*/ /* Restaura CSS para manter a consistência entre diferentes navegadores */
+* { * { * { * { * * {
+Mark: 0;
+espaçamento: 0;
+box-size: box-size;
+}
+
+body body
+Tipo de letra: Arial, sans-serif;
+Linha-altura: 1.6;
+Mark: 0;
+espaçamento: 0;
+Mostrar: flexível;
+direção flexível: coluna;
+mínimo de altura: 100vh;
+}
+
+{header}
+cor de fundo: #333;
+cor: branco;
+Espaçamento: 1rem;
+}
+
+{nav ul}
+estilo de lista: sem;
+Mostrar: flexível;
+Justifique-content: centralize;
+}
+
+Navul li {navul}
+delay: 15px;
+}
+
+Navul li a {nav}
+cor: branco;
+Decoração de texto: sem;
+Espaçamento: 8px 16px;
+transition: 0.3s delay;
+}
+
+{navul li a:hover}
+cor de fundo: #555;
+}
+
+.move-separator {
+position: total;
+superior: -40px;
+esquerdo: 10px;
+cor de fundo: #000;
+tonalidade: #fff;
+espaçamento: 8px;
+Índice Z: 100;
+transição: superior a 0.3s;
+}
+
+.move-se para o conteúdo:focus {
+superior: 10px;
+}
+
+main {} {} main {} {} main {} main {} main {} main {} main {} main {} main {} main {} main {}
+: 1; flex: 1;
+Espaçamento: 2rem;
+}
+
+footer {"}"}
+cor de fundo: #333;
+cor: branco;
+Alinhamento do texto: no centro
