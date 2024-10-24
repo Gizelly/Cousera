@@ -1,68 +1,113 @@
-*/ /* Restaura CSS para manter a consistência entre diferentes navegadores */
-* { * { * { * { * * {
-Mark: 0;
-espaçamento: 0;
-box-size: box-size;
+/* Reset CSS para consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body body
-Tipo de letra: Arial, sans-serif;
-Linha-altura: 1.6;
-Mark: 0;
-espaçamento: 0;
-Mostrar: flexível;
-direção flexível: coluna;
-mínimo de altura: 100vh;
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-{header}
-cor de fundo: #333;
-cor: branco;
-Espaçamento: 1rem;
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
 }
 
-{nav ul}
-estilo de lista: sem;
-Mostrar: flexível;
-Justifique-content: centralize;
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
 }
 
-Navul li {navul}
-delay: 15px;
+nav ul li {
+    margin: 0 15px;
 }
 
-Navul li a {nav}
-cor: branco;
-Decoração de texto: sem;
-Espaçamento: 8px 16px;
-transition: 0.3s delay;
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    transition: background 0.3s ease;
 }
 
-{navul li a:hover}
-cor de fundo: #555;
+nav ul li a:hover {
+    background-color: #555;
 }
 
-.move-separator {
-position: total;
-superior: -40px;
-esquerdo: 10px;
-cor de fundo: #000;
-tonalidade: #fff;
-espaçamento: 8px;
-Índice Z: 100;
-transição: superior a 0.3s;
+.skip-to-content {
+    position: absolute;
+    top: -40px;
+    left: 10px;
+    background-color: #000;
+    color: #fff;
+    padding: 8px;
+    z-index: 100;
+    transition: top 0.3s;
 }
 
-.move-se para o conteúdo:focus {
-superior: 10px;
+.skip-to-content:focus {
+    top: 10px;
 }
 
-main {} {} main {} {} main {} main {} main {} main {} main {} main {} main {} main {} main {}
-: 1; flex: 1;
-Espaçamento: 2rem;
+main {
+    flex: 1;
+    padding: 2rem;
 }
 
-footer {"}"}
-cor de fundo: #333;
-cor: branco;
-Alinhamento do texto: no centro
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Flexbox para o formulário */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Estilos de grid para conteúdo */
+section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+@media (min-width: 768px) {
+    section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
